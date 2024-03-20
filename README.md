@@ -1,5 +1,5 @@
 # XayDungWebsiteKinhDoanhDoGiaDung_PHPLaravel-HTML-CSS-Bootstrap
-XÂY DỰNG WEBSITE KINH DOANH ĐỒ GIA DỤNG
+# XÂY DỰNG WEBSITE KINH DOANH ĐỒ GIA DỤNG
 MỤC TIÊU ĐỀ TÀI
 Giới thiệu, quảng bá về cửa hàng bán đồ gia dụng. Cách liên hệ, địa chỉ, những điều khoản khi khách hàng có nhu cầu mua hàng tại cửa hàng.
 Giúp khách hàng có thể tìm các sản phẩm gia dụng mà mình yêu thích, hay phù hợp với mục đích của mình, …
