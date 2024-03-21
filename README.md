@@ -77,13 +77,13 @@ Chương 4.	Trình bày sản phẩm
 
 MỤC TIÊU ĐỀ TÀI
 
-	Giới thiệu, quảng bá về cửa hàng bán đồ gia dụng. Cách liên hệ, địa chỉ, những điều khoản khi khách hàng có nhu cầu mua hàng tại cửa hàng.
-	Giúp khách hàng có thể tìm các sản phẩm gia dụng mà mình yêu thích, hay phù hợp với mục đích của mình, …
-	Tiếp nhận phản ánh của khách hàng về sản phẩm cũng như phương pháp làm việc của cửa hàng thông qua website.
-	Mục tiêu chính là có thể thành thạo lập trình:
-		-	Lập trình hướng đối tượng.
-		-	Lập trình Web
-		-	Lập trình cơ sở dữ liệu (SQL server)
-		-	Hoàn thành được một website bán đồ gia dụng cơ bản
-		-	Nâng cao khả năng làm và kỹ năng mềm 
+Giới thiệu, quảng bá về cửa hàng bán đồ gia dụng. Cách liên hệ, địa chỉ, những điều khoản khi khách hàng có nhu cầu mua hàng tại cửa hàng.
+Giúp khách hàng có thể tìm các sản phẩm gia dụng mà mình yêu thích, hay phù hợp với mục đích của mình, …
+Tiếp nhận phản ánh của khách hàng về sản phẩm cũng như phương pháp làm việc của cửa hàng thông qua website.
+Mục tiêu chính là có thể thành thạo lập trình:
+	-	Lập trình hướng đối tượng.
+	-	Lập trình Web
+	-	Lập trình cơ sở dữ liệu (SQL server)
+	-	Hoàn thành được một website bán đồ gia dụng cơ bản
+	-	Nâng cao khả năng làm và kỹ năng mềm 
 
