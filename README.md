@@ -518,5 +518,208 @@ o	Admin
 
 <img src="https://private-user-images.githubusercontent.com/134685355/315035943-ce2c28c9-ed45-40ca-90e4-bdd1dfc0b3c2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM1OTQzLWNlMmMyOGM5LWVkNDUtNDBjYS05MGU0LWJkZDFkZmMwYjNjMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NTZiMGNmMTc0MWZmNzBkNzcyMzRmNzAxYTBiZGViOTc0ODc5MmE5NzNjODViYTgyN2VmOWMzZjZmY2UxOWE2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.SA8L-bEs9EUwBnapYxAbxn2Be4a8Nlo_r4c92AQ4VV0">
 
+3.1.3.	Danh sách các Actor của hệ thống
 
+<img src="https://private-user-images.githubusercontent.com/134685355/315035819-b680b0aa-4789-4f0d-b1df-b04ce0e6bfd3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM1ODE5LWI2ODBiMGFhLTQ3ODktNGYwZC1iMWRmLWIwNGNlMGU2YmZkMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YzgyYzFiNTVlOTBlMDZjMmU1YWYwMDI5YzViMTEwNzdjM2ZmZWJiMjVhNTVmNDkzM2FiOTIxMDk2YWJlZWQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.XsKqGDkX2wJNwGHim_tuR_Eny2cpHckmnNmgTY6aE5o">
 
+Hình 2: Danh sách các Actor của hệ thống
+
+3.1.4.	Danh sách các Use – Case chính của hệ thống
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315035877-1c032acb-4ee2-4790-87f1-887f14cb904e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM1ODc3LTFjMDMyYWNiLTRlZTItNDc5MC04N2YxLTg4N2YxNGNiOTA0ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NDU4YjJkZDBiNTA2MmE5YzBlMmM1Y2MwOTYyODgwZDFiN2YzMDYwYjRjMjc3Y2M5YWYxZjFhNDE2ZDVkYWQzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.48GNWfrpFI0IwwOcKTIHiPjRcqciLZydBuxzSVlFf-A">
+
+Hình 3: Danh sách các Use – Case chính của hệ thống
+
+3.1.5.	Biểu đồ Use – Case mức tổng quát
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315035988-6a6baf50-72c0-48b8-8095-2babd9a0f759.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM1OTg4LTZhNmJhZjUwLTcyYzAtNDhiOC04MDk1LTJiYWJkOWEwZjc1OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNTEwZDY3N2ViNmUyZjc3OGE5NDU1ZTA4ODU3ZmRjMWM2MGFkYTEwMmIyNmY3NGQ3ZjAwNGQzMWQ4ZTc0Y2U1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UQ8YMg_NAzhUc8jNAtn6dBpRgWReRiNZpcIesLNltps">
+
+Hình 4: Biểu đồ Use – Case mức tổng quát
+
+3.1.6.	Use – Case quản lý hệ thống
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036032-b8ca66df-70c3-4e40-8d61-d91b3a31d7c9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MDMyLWI4Y2E2NmRmLTcwYzMtNGU0MC04ZDYxLWQ5MWIzYTMxZDdjOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOWFkNDQ4Zjc2MDg4ZjczYjQzY2IxMzE1YmQyOGZmYTkzOWQ4ZDhmYWJhMTAyMDhjMDFlMzM4MDlmZmVkOTRjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.9hMr31EEnp0snLG9ax7a20t_gLjSWP97E0IQLC4QZrg">
+
+Hình 5 : Biểu đồ Use – Case quản lý hệ thống
+
+3.1.7.	Use – Case người dùng
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036076-a0f5f70d-e6a3-4c77-be25-618a6cffb713.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MDc2LWEwZjVmNzBkLWU2YTMtNGM3Ny1iZTI1LTYxOGE2Y2ZmYjcxMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNDg2ZjZiMmQ4MjQzYWI1OWRkMTA2YTcxZmNiOGU0MzFiOTgyYjYxM2Q2NzdlMmIwYWY4NTJhYWVmZDY5OWFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.K-S2S7l7UhZQIRHuLxBfOu-4vM36RPhL7TJFU40BwR8">
+
+Hình 6 : Biểu đồ Use – Case người dùng
+
+Mô tả tóm tắt:
+
+-	Tên Case sử dụng:Người dùng
+
+-	Mục đích: Người dùng muốn trở thành thành viên của hệ thống thì phải đăng ký ài khoản. Tài khoản của người dùng là miễn phí họ không phải đóng bất cứ khoản chi phí nào khi sử dụng các dich vụ.
+
+-	Tác nhân: Người dùng
+
+-	Tóm lược: Người dùng khi muốn muốn làm thành viên của trang web cần phải đăng kí làm thành viên của hệ thống. Các bước đăng kí đơn giản và dễ dàng, mọi thông tin đăng kí phải chính xác.
+
+Mô tả kịch bản:
+
+ Thông tin đầu vào: Các thông tin đăng kí của người dùng.
+
+-	Tài khoản
+
+-	Mật khẩu
+
+-	Nhập lại mật khẩu
+
+-	Email
+
+-	Tra cứu thông tin
+
+-	Xem sản phẩm
+
+3.1.8.	Use – Case giỏ hàng Online
+
+Chức năng
+
+•	Mục đích: 
+
+Giúp người dùng thêm sản phẩm vào giỏ hàng và có thể tiến hành đặt hàng
+
+•	Tác nhân liên quan:
+
+Tác nhân ở đây là người dùng khách hàng của hệ thống
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036118-91cdd5b8-0864-4def-97e4-2df336630266.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MTE4LTkxY2RkNWI4LTA4NjQtNGRlZi05N2U0LTJkZjMzNjYzMDI2Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNWY3ZTgwZWNhMTEzMDhhODRhNjVkYzAyMjAwODhkMjc4MWZmOThlNmQwYzBkMWZlYTEyNjU1ZmM1MTA5NzY0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MPZ3xsmrNm2SfL3JCIYHSNUQ6bK-EPTQupSK5_tTm2c">
+
+Hình  7: Biểu đồ Use – Case giỏ hàng
+
+3.1.9.	Use – Case đặt hàng Online
+
+-	Khi khách hàng mua hàng thì khách hàng tiến hành chọn hàng, sau đó đặt hàng, khách hàng có thể tiếp tục mua hàng hay lựa chọn huỷ bỏ và cập nhật giỏ hàng.
+
+-	Hệ thống sẽ lưu những thông tin về quá trình mua hàng của khách hàng vào giỏ hàng. Sau khi khách hàng hoàn tất đơn hàng thì hệ thống sẽ in hoá đơn.
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036159-298ae79c-15f9-49bb-8150-47c175aed572.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MTU5LTI5OGFlNzljLTE1ZjktNDliYi04MTUwLTQ3YzE3NWFlZDU3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZDBlYmI4NTQ4ZDA0NzFkNzVkY2RlZDgxZjA4NjhkZGY4YTEwNDVlNTRkZDFjOTliMWVlNGQ1ZTE4ZmRiMTM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.HY2QGmsjBplqYowcpxtt8jGaOvLrSowT0FJrDHUeBPE">
+
+Hình 8: Biểu đồ Use – Case cho chức năng đặt hàng Online
+
+3.1.10.	Use – Case tìm kiếm sản phẩm
+
+Tác nhân: khách hàng
+
+•	Chức năng: Cho phép khách hàng tìm kiếm sản phẩm theo nhiều tiêu chí khác nhau: theo hãng sản xuất, theo khoảng giá, theo kiểu dáng.
+
+•	Mô tả: Khách hàng thấy được sản phẩm theo yêu cầu.
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036204-5df18069-8144-4360-ad87-2e77e3ead17f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MjA0LTVkZjE4MDY5LTgxNDQtNDM2MC1hZDg3LTJlNzdlM2VhZDE3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMWYzZTdkODE4ZTE5MDk4ZWVmYjJmOTYzNGI5MWRhZDI4YzE4OTcxMzU2OWY4YTlkMTE4MTAxYmI2NjQ5YWY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bURkA_oqdZcb_ZnOLYwaVqGcDwzwrWUCzdTF9G7IiH0">
+
+Hình 9: Biểu đồ Use - Case tìm kiếm sản phẩm
+
+3.1.11.	Use – Case thêm một sản phẩm vào giỏ hàng
+
+Tác nhân: quản trị hệ thống
+
+•	Chức năng: Cho phép người quản trị thêm sách vào cửa hàng, làm cho cửa hàng thêm đa dạng sản phẩm.
+
+•	Mô tả: Khi sản phẩm được nhập vào cửa hàng người quản lý cần điền đầy đủ thông tin vào phiếu nhập để người quản trị dễ dàng quản lý sản phẩm mà khách hàng đã chọn mua.
+
+3.1.12.	Use – Case quản lý thông tin sản phẩm
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036250-a77b2336-53fa-46df-b675-586636d485d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MjUwLWE3N2IyMzM2LTUzZmEtNDZkZi1iNjc1LTU4NjYzNmQ0ODVkNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNzIyMjgwZTVkMDk1NGIxYWQwMTg2MjZkM2M4NDVkMzZlODJiMGYyYzdiNGYyZmI3Njk0MjE2MWJiMzdlZDUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.nJm9i-uf-RkEEKC1nc9FKRej01Y3g4VfTMy7L11TJIs">
+ 
+Hình 10: Biểu đồ Use – Case quản lý thông tin sản phẩm
+
+3.1.13.	Use – Case quản lý thông tin bài viết
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036292-375e2d46-b1a3-45b1-9c22-6cc387da47b4.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MjkyLTM3NWUyZDQ2LWIxYTMtNDViMS05YzIyLTZjYzM4N2RhNDdiNC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZTAzZTE1YzVkMWYyNWI5YjVmN2UzYWQxYjQ4NGYwNTc2MDZlNmY3ZTFmZjk0ODlhYzRlZWUxZTQ3YWQ0MGVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kXWsdAYE50WbD-ycR3WTi1UDL1sK4A4eWre9JjLHmoE">
+ 
+Hình 11: Biểu đồ Use – Case quản lý thông tin bài viết
+
+3.1.14.	Use – Case cập nhật Banner
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036376-e0c4a0b4-24a6-4d22-8cec-3b940805e086.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2Mzc2LWUwYzRhMGI0LTI0YTYtNGQyMi04Y2VjLTNiOTQwODA1ZTA4Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZDQxZGE5ZDU4MWQ2N2E1NWM1NTU5YTg1NjMzNWY4NjBkNWNmMmY3ZDMxNDIzODc2YmI0YjkxNDY5MjU1MjBiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.9D6KHPIwXkeR9WZYiYZ-aNOUMi7dgDRJJMo_hHyghT8">
+ 
+Hình 12: Biểu đồ Use – Case cập nhật Banner
+
+3.2	Danh sách các thực thể
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315036333-ecbdeb19-9466-4d48-a80b-087eaab8a84f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2MzMzLWVjYmRlYjE5LTk0NjYtNGQ0OC1hODBiLTA4N2VhYWI4YTg0Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNzExMGVmNjQwYzI0ODA1YzAyMWRjMmFmNjdhNzM1NTYwNmZiNWMwYjQ5MzVlNGMxNGIxNGMyYzY1MjNmMzM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mQ0dIsnRa_JvJ8Bukphic1h-e32m3VOTVQzxAOZhPjg">
+
+3.3	Xây dựng các bảng cơ sở dữ liệu
+
+3.3.1.	Bảng Category
+
+<img src="">
+
+Hình 13: Bảng Category
+ 
+3.3.2.	Bảng Product
+
+ <img src="">
+ 
+Hình 14: Bảng Product
+
+3.3.3.	Bảng Topic
+
+ <img src="">
+ 
+Hình 15: Bảng Topic
+
+3.3.4.	Bảng Post
+
+ <img src="">
+ 
+Hình 16: Bảng Post
+
+3.3.5.	Bảng Slider
+
+ <img src="">
+ 
+Hình17: Bảng Slider 
+
+3.3.6.	Bảng Order
+
+ <img src="">
+ 
+Hình 18: Bảng Order
+
+3.3.7.	Bảng OrderDetail
+
+ <img src="">
+ 
+Hình 18: Bảng OrderDetail
+
+3.3.8.	Bảng User
+
+ <img src="">
+ 
+Hình 19: Bảng User
+
+3.3.9.	Bảng Menu
+
+ <img src="">
+ 
+Hình 20: Bảng Menu
+
+3.3.10.	 Bảng Contact
+
+ <img src="">
+ 
+Hình 21: Bảng Contact
+
+3.3.11.	Bảng Link
+
+ <img src="">
+ 
+Hình 21: Bảng Link
+
+Chương 4.	Trình bày sản phẩm
+
+4.1	Giao diện quản lý (ADMIN)
+
+ <img src="https://private-user-images.githubusercontent.com/134685355/315036964-e8e6a813-b75b-4d4c-b447-eb19c09054cb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM2OTY0LWU4ZTZhODEzLWI3NWItNGQ0Yy1iNDQ3LWViMTljMDkwNTRjYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xODFlMGFjOTAxMDE3MGVhZTkyY2E1ODgxYjU1ZDJmNjZkNTQzYzcwZDU4OTQ1ZjI2MDAwNjQxYmY3ODEzOWM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UrpuyN5W4zR41IRwzwrVUgk62Gsx6jdD2LMrVx29o94">
+ 
+Hình 22: Giao diện quản lý
+
+4.2	Giao diện trang người dung (USER)
+
+ <img src="https://private-user-images.githubusercontent.com/134685355/315037015-1eaa87ba-ad3b-427a-84d6-b619653d2a09.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM3MDE1LTFlYWE4N2JhLWFkM2ItNDI3YS04NGQ2LWI2MTk2NTNkMmEwOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZDQ5MTMyZGY4MDIyZDBkNmJmNjViNDFhMWJmOWVlMmRhOGJmYWE1YjlmNjJlNjczZTFiYTZhMDZjMjZiNWM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xahSD14aFldrXkc3ZcW8uP3-CH9qeuskNTEv-mWHU0o">
+ 
+Hình 23: Giao diện người dùng
