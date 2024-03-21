@@ -368,4 +368,58 @@ o	Lập trình hướng đối tượng(tiếng Anh: Object-oriented programming
 
 o	là ngôn ngữ sử dụng giới hạn những từ khóa (gồm khoảng 80 từ khóa và mười mấy kiểu dữ liệu xây dựng sẵn)
 
+Chương 2.	Tổng quan về ASP.NET
+
+2.1	Giới thiệu về ASP.NET
+
+2.1.1.	Khái niệm
+
+ASP.NET là một nền tảng ứng dụng web (web application framework) được phát triển và cung cấp bởi Microsoft, cho phép những người lập trình tạo ra những trang web động, những ứng dụng web và những dịch vụ web. Lần đầu tiên được đưa ra thị trường vào tháng 2 năm 2002 cùng với phiên bản 1.0 của .NET framework, là công nghệ nối tiếp của Microsoft's Active Server Pages(ASP). ASP.NET được biên dịch dưới dạng Common Language Runtime (CLR), cho phép những người lập trình viết mã ASP.NET với bất kỳ ngôn ngữ nào được hỗ trợ bởi .NET language.
+
+2.1.2.	Lịch sử phát triển
+
+Sau khi phát hành phiên bản Internet Information Service 4.0 vào năm 1997, hãng Microsoft bắt đầu nghiên cứu một mô hình ứng dụng web để giải quyết những bất tiện của ASP, đặc biệt là việc tách riêng biệt phần thể hiện và phần nội dung cũng như cách viết mã rõ ràng hơn. Mark Anders, quản lý của nhóm IIS và Scott Guthrie, gia nhập Microsoft vào năm 1997 sau khi tốt nghiệp Đại học Duke, được giao nhiệm vụ định hình mô hình cần phát triển. Những thiết kế ban đầu được thực hiện trong vòng 2 tháng bởi Anders và Guthrie, Guthrie đã viết mã prototype đầu tiên trong khoảng thời gian nghỉ lễ Giáng sinh năm 1997.
+
+2.1.3.	Ưu điểm
+
+-	Code chạy bằng ngôn ngữ asp.net rất ổn định tiêu biểu là trang vnexpress.net trang web tin tức online số 1 việt nam hiện nay, thời đầu vnexpress được xây dựng bằng ASP sau đó khi ASP.net ra đời được cập nhật lên, bên cạnh đó dân trí cũng chạy bằng asp.net cũng rất ổn định.
+
+-	Bảo mật tốt được thiết kế bằng ngôn ngữ lập trình hướng đối tượng và thừa hưởng các điểm mạnh của JS giúp bảo mật cao hơn.
+
+-	Có khả năng tùy biến cao.
+
+-	Có độ truy xuất dữ liệu nhanh nhờ sử dụng các đối tượng để truy xuất không những giúp bảo mật của ASP.net được đánh giá cao mà tốc độ xử lý, truy xuất dữ liệu của nó cũng được cải thiện một cách rõ rệt.
+
+2.1.4.	Nhược điểm
+
+-	Không hỗ trợ cho các thiết bị sử dụng hệ điều hành Linux.
+
+-	Không hỗ trợ Visual studio trong quá trình viết code.
+
+-	ASP.NET có phí sử dụng khá cao, không phù hợp sử dụng cho các doanh nghiệp nhỏ hay các cá nhân.
+
+2.2	Tổng quan mô hình MVC
+
+2.2.1.	Khái niệm
+
+MVC (Model – View - Controller) là một design partern đã tồn tại rất lâu trong ngành công nghệ phần mềm. Một ứng dụng viết theo mô hình MVC sẽ bao gồm 3 thành phần tách biệt nhau đó là Model, View, Controller. 
+
+Giống như trong cấu trúc Three – Tier, mô hình MVC giúp tách biệt 3 tầng trong mô hình lập trình web, vì vậy giúp tối ưu ứng dụng, dễ dàng thêm mới và chỉnh sửa code hoặc giao diện
+
+2.2.2.	Mô tả
+
+•	Model: ở phần trước mình đã nhắc lại cho các bạn về 3 tầng trong mô hình
+
+•	Three – Tier thì trong đó gồm có 2 tầng Data Access Layer và tầng Business Logic Layer. Hai tầng này là hai tầng tương đương với tầng model trong mô hình MVC.
+
+•	View: là tầng giao diện, hiển thị dữ liệu được truy xuất từ tầng model. Tầng này tương đương với tầng Presentation Layer trong cấu trúc Three – Tier.
+
+•	Controller: đây là tầng giúp kết nối giữa tầng model và tầng view trong mô hình MVC, có nghĩa là nếu phía client yêu cầu hiển thị dữ liệu thì controller gọi giữ liệu từ model và trả về cho view vì view tương tác trực tiếp với client
+
+2.2.3.	Các phiên bản của MVC
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315035703-129ad5fd-2480-4e50-b67f-990a5e8e8859.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM1NzAzLTEyOWFkNWZkLTI0ODAtNGU1MC1iNjdmLTk5MGE1ZThlODg1OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMzE4YzU0NTEyZTM4MjZlNGE0MDFhZTlkYzZiMWI2OWM3MzQ4MWFkMWQ1YWE0ZmQxMGY1MTY3ZjllYjU3ZTEzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kSUjvnsxdr8R-AkARCb1gkrH3XZSiP-N_zYYH9wi9Xw">
+ 
+Hình 1: Các phiên bản của MVC
+
 
