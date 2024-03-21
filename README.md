@@ -422,4 +422,101 @@ Giống như trong cấu trúc Three – Tier, mô hình MVC giúp tách biệt 
  
 Hình 1: Các phiên bản của MVC
 
+2.2.4.	Cơ chế hoạt động của MVC
+
+-	User gửi 1 yêu cầu tới server bằng cách truyền vào 1 URL trong browser 
+
+-	Yêu cầu đó được gửi tới controller đầu tiên, controller sẽ xử lý yêu cầu, nếu yêu cầu cần truy xuất dữ liệu thì controller sẽ chuyển qua tầng model 
+
+-	Tại tầng model, dữ liệu được truy xuất từ database và sau đó truyền qua view thông qua controller 
+
+-	Controller sẽ giúp dữ liệu được chuyển từ model qua view 
+
+-	View là tầng cuối cùng giao tiếp với User, mọi dữ liệu sẽ được hiển thị cho User thông qua tầng View
+
+2.2.5.	Ưu điểm
+
+-	Thể hiện tính chuyên nghiệp trong lập trình, phân tích thiết kế
+
+-	Do được chia thành các thành phần độc lập nên giúp chúng phát triển ứng dụng nhanh, đơn giản, dễ nâng cấp, bảo trì, …
+
+2.2.6.	Nhược điểm
+
+-	Đối với dự án nhỏ việc áp dụng mô hình MVC gây cồng kềnh
+
+-	Tốn thời gian trong quá trình phát triển. 
+
+-	Tốn thời gian trung chuyển dữ liệu của các thành phần.
+
+2.3	Các Framework dùng trong Website
+
+2.3.1.	Entity Framework
+
+1.3.3.1	Khái niệm
+
+Entity Framework là một khung ORM mã nguồn mở cho các ứng dụng .NET được Microsoft hỗ trợ. Nó cho phép các nhà phát triển làm việc với dữ liệu bằng cách sử dụng các đối tượng của các lớp cụ thể của miền mà không cần tập trung vào các bảng và cột cơ sở dữ liệu cơ bản nơi dữ liệu này được lưu trữ. Với Entity Framework, các nhà phát triển có thể làm việc ở mức độ trừu tượng cao hơn khi họ xử lý dữ liệu và có thể tạo và duy trì các ứng dụng hướng dữ liệu với ít mã hơn so với các ứng dụng truyền thống.
+
+1.3.3.2	Các tính năng
+
+-	Đa nền tảng: EF Core là một khung đa nền tảng có thể chạy trên Windows, Linux và Mac
+
+-	Mô hình hóa: EF (Entity Framework) tạo EDM (Mô hình dữ liệu thực thể) dựa trên các thực thể POCO (Plain Old CLR Object) với các thuộc tính get / set của các loại dữ liệu khác nhau. Nó sử dụng mô hình này khi truy vấn hoặc lưu dữ liệu thực thể vào cơ sở dữ liệu cơ bản
+
+-	Truy vấn: EF cho phép chúng tôi sử dụng các truy vấn LINQ (C # / VB.NET) để truy xuất dữ liệu từ cơ sở dữ liệu cơ bản. Nhà cung cấp cơ sở dữ liệu sẽ dịch các truy vấn LINQ này sang ngôn ngữ truy vấn dành riêng cho cơ sở dữ liệu (ví dụ: SQL cho cơ sở dữ liệu quan hệ). EF cũng cho phép chúng tôi thực hiện các truy vấn SQL thô trực tiếp đến cơ sở dữ liệu.
+
+-	Theo dõi thay đổi: EF theo dõi các thay đổi xảy ra đối với các phiên bản của các thực thể của bạn (Giá trị thuộc tính) cần được gửi đến cơ sở dữ liệu.
+
+-	Lưu: EF thực thi các lệnh INSERT, UPDATE và DELETE vào cơ sở dữ liệu dựa trên những thay đổi xảy ra với các thực thể của bạn khi bạn gọi phương thức SaveChanges (). EF cũng cung cấp phương thức SaveChangesAsync () không đồng bộ. Đồng thời: EF sử dụng Đồng thời lạc quan theo mặc định để bảo vệ các thay đổi ghi đè do người dùng khác thực hiện do dữ liệu được lấy từ cơ sở dữ liệu.
+
+-	Giao dịch: EF thực hiện quản lý giao dịch tự động trong khi truy vấn hoặc lưu dữ liệu. Nó cũng cung cấp các tùy chọn để tùy chỉnh quản lý giao dịch.
+
+-	Bộ nhớ đệm: EF bao gồm cấp bộ nhớ đệm đầu tiên ra khỏi hộp. Vì vậy, truy vấn lặp đi lặp lại sẽ trả về dữ liệu từ bộ đệm thay vì nhấn cơ sở dữ liệu.
+
+-	Các quy ước tích hợp: EF tuân theo các quy ước về mẫu lập trình cấu hình và bao gồm một bộ quy tắc mặc định tự động định cấu hình mô hình EF.
+
+-	Cấu hình: EF cho phép chúng tôi định cấu hình mô hình EF bằng cách sử dụng các thuộc tính chú thích dữ liệu hoặc API Fluent để ghi đè các quy ước mặc định.
+
+-	Di chuyển: EF cung cấp một tập hợp các lệnh di chuyển có thể được thực thi trên Bảng điều khiển Trình quản lý gói NuGet hoặc Giao diện dòng lệnh để tạo hoặc quản lý Lược đồ cơ sở dữ liệu cơ bản.
+
+Chương 3.	Phân tích – Thiết kế cơ sở dữ liệu
+
+3.1	Quy trình xây dựng
+
+3.1.1.	Các thông tin đầu ra đầu vào của hệ thống
+
+Thông tin đầu vào:
+
+•	Thông tin khách hàng
+
+•	Thông tin sản phẩm
+
+•	Thông tin về công ty và các bài viết liên quan
+
+•	Thông tin quảng cáo
+
+•	Các phản hồi
+
+•	Đơn đặt hàng
+
+Thông tin đầu ra:
+
+•	Chi tiết về sản phẩm
+
+•	Hóa đơn
+
+•	Các phản hồi
+
+3.1.2.	Tác nhân
+
+•	Khách hàng:
+
+o	User
+
+o	Guest (Khách viếng thăm)
+
+o	Admin
+
+<img src="https://private-user-images.githubusercontent.com/134685355/315035943-ce2c28c9-ed45-40ca-90e4-bdd1dfc0b3c2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5OTc0MjEsIm5iZiI6MTcxMDk5NzEyMSwicGF0aCI6Ii8xMzQ2ODUzNTUvMzE1MDM1OTQzLWNlMmMyOGM5LWVkNDUtNDBjYS05MGU0LWJkZDFkZmMwYjNjMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyMVQwNDU4NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NTZiMGNmMTc0MWZmNzBkNzcyMzRmNzAxYTBiZGViOTc0ODc5MmE5NzNjODViYTgyN2VmOWMzZjZmY2UxOWE2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.SA8L-bEs9EUwBnapYxAbxn2Be4a8Nlo_r4c92AQ4VV0">
+
+
 
